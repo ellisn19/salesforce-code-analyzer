@@ -4,8 +4,7 @@
 	"description": "A simple CLI tool to detect Apex trigger anti-patterns like DML or SOQL inside loops.",
 	"main": "index.js",
 	"scripts": {
-		"analyze": "node index.js analyze",
-		"bulk": "node index.js bulk"
+		"analyze": "node index.js analyze"
 	},
 	"keywords": [
 		"salesforce",
