@@ -170,7 +170,7 @@ async function analyzeFileForGovernorLimits(filePath) {
 	})();
 
 	const results = findGovernorLimitIssues(code);
-	
+
 	const outputDir = path.resolve(__dirname, '../output');
 	if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir);
 
