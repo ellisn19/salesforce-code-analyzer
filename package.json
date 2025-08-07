@@ -1,0 +1,22 @@
+{
+	"name": "trigger-analyzer",
+	"version": "1.0.0",
+	"description": "A simple CLI tool to detect Apex trigger anti-patterns like DML or SOQL inside loops.",
+	"main": "index.js",
+	"scripts": {
+		"analyze": "node index.js analyze",
+		"bulk": "node index.js bulk"
+	},
+	"keywords": [
+		"salesforce",
+		"apex",
+		"trigger",
+		"analyzer",
+		"static-analysis",
+		"dml",
+		"soql"
+	],
+	"author": "Nicholas Ellis",
+	"license": "MIT",
+	"type": "commonjs"
+}
